@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-head{
+    background-color: #128cbd;
+    color: #fff;
+    font: 700;
+    font-size: 2em;
+    text-align: center;
+    padding: 15px;
+}
+.main-links{
+    padding: 20px 0px ;
+    border: 2px solid #000;
+    text-align: center;  
+}
+
+.main-links ul li{
+    display: inline-block;
+    margin-right: 11px;
+    font-family: cursive,'Lucida Sans',sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.main-links ul li a{
+    text-decoration: none;
+}
+.main-links ul li a{
+    text-decoration: none;
+}
+
+.item-1{
+    float: left;
+    width: 12%;
+    border-right: 2px solid #000;
+}
+ .item-2{
+    float: left;
+    width: 75%;
+    
+}
+.item-3{
+    float: left;
+    width: 12%;
+    border-left: 2px solid #000;
+}
+
+.item-1 h4,.item-3 h4{
+   background-color: rgb(204, 137, 3);
+   color: #fff;
+   width: 70%;
+   margin: 20px auto;
+   padding: 22px 11px;
+   border-radius: 20px;
+   /* height: 100%; */
+   font-size: 1.6em;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+}
+/* start cv page */
+.cv-cont{
+    background-image: url(../img/cv-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.cv-cont >img{
+    border: 5px solid #eee;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+.cv-cont .cv-cnt{
+    margin-left: 15%;
+    margin-top: 15px;
+    color: #fff;
+}
+.cv-cont .cv-cnt p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+.cv-cont .cv-cnt p span{
+    background-color: #128cbd;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cv-cont .cv-cnt ul {
+    margin-top: 4%;
+}
+.cv-cont .cv-cnt ul li{
+    list-style: none;
+    margin-top: 2%;
+}
+.cv-cont .cv-cnt ul li span{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:4px;
+}
+/* Start skills */
+.po-skl{
+    position: relative;
+    top: 50px;
+}
+.po-skl h2{
+    margin-bottom: 25px;
+}
+.skl-1,.skl-2{
+    float: left;
+    text-align: center;
+    /* padding: 25px;
+    border: 2px solid; */
+    width:  50%;
+    
+}
+.skl-2{
+    float: right;
+ 
+}
+.skl-1 label,progress,
+.skl-2 label,progress{
+    display: block;
+    text-align: initial;
+    margin: auto;
+    width: 60%;
+    height: 25px;
+}
+
+/*Start overview */
+.over-cont{
+    display: grid;
+    margin: auto;
+    padding: 22px;
+}
+.over-cont img{
+    border: 3px solid #128cbd;
+    margin: auto;
+    width: 15%;
+}
+.over-cont ul {
+    margin: auto;
+    
+}
+.over-cont ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+.over-cont ul li img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+}
+.over-cont ul li img:hover{
+    border: 3px solid #128cbd;
+}
+/*Start Good At */
+.good-link h1,
+.WhatIdo-link h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+
+}
+.good-link ul{
+    list-style: none;
+}
+.good-link ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.good-link ul li p{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+.good-link ul li img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.good-link ul li img:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+/*End Good At */
+/*start whath I do  */
+.WhatIdo-link ul{
+    list-style: none;
+}
+.WhatIdo-link  ul li{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.WhatIdo-link ul li img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: auto;
+}
+.WhatIdo-link ul li img:hover{
+    width: 330px;
+    height: 330px;
+    
+}
+/*End whath I do  */
+

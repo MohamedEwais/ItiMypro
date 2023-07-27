@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        @keyframes slider{
+            0%{
+                transform: translateX(0%);
+            }
+            15%{
+                transform: translateX(-100%);
+            }
+            30%{
+                transform: translateX(-100%);
+            }
+            50%{
+                transform: translateX(-200%);
+            }
+            75%{
+                transform: translateX(-200%);
+            }
+            100%{
+                transform: translateX(-300%);
+            }
+
+        }
+        .main-cont{
+            width: 500px;
+            height: 500px;
+            overflow: hidden;
+            position: absolute;
+            top: 15%;
+            left: 25%;
+        }
+        .slid{
+            display: flex;
+            width: 100%;
+            animation: slider  12s infinite;
+        }
+        .slid img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-cont">
+        <div class="slid">
+            <img src="./img/whatido-p1.jpg">
+            <img src="./img/whatido-p1.jpg">
+            <img src="./img/orcl-1.png">
+
+        </div>
+    </div>
+</body>
+</html>
